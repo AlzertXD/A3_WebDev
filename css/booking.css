@@ -1,0 +1,64 @@
+body {
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    background-color:#7D9B9A;
+  }
+  
+  div.elem-group {
+    margin: 20px 0;
+  }
+  
+  div.name-group.inlined,div.email-group.inlined {
+    width: 49%;
+    display: inline-block;
+   
+  }
+  
+  label {
+    display: block;
+    padding-bottom: 10px;
+    font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+    
+    border-radius: 2px;
+    border: 2px solid #fafafa;
+    box-sizing: border-box;
+    font-size: medium;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  div.member-group.inlined input {
+    width: 95%;
+    display: inline-block;
+    font-size: medium;
+  }
+  
+  textarea {
+    height: 250px;
+  }
+  
+  hr {
+    border: 1px dotted #ccc;
+  }
+  
+  button {
+    height: 50px;
+    background: rgba(0, 255, 157, 0.61);
+    border: none;
+    color: black;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    border: 2px solid black;
+    
+  }
